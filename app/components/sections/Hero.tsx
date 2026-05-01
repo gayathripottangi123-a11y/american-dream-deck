@@ -124,6 +124,7 @@ export default function Hero() {
         style={{ opacity: 0.4 }}
       />
 
+      {/* 3D Floating Element */}
       {/* Gradient Overlays */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black" />
       <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-black/60" />

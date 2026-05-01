@@ -2,6 +2,7 @@
 
 import { AMERICAN_DREAM_DATA } from '@/app/lib/data/american-dream-data'
 import VideoPlayer from '../deck/VideoPlayer'
+import Image from 'next/image'
 
 export default function Entertainment() {
   return (
@@ -47,9 +48,11 @@ export default function Entertainment() {
               src="/videos/nickelodeon-universe.mp4"
               title="Nickelodeon Universe"
             />
-            <img
+            <Image
               src="/images/nickelodeon-universe.jpg"
               alt="Nickelodeon Universe Indoor Theme Park"
+              width={800}
+              height={300}
               className="mt-6 w-full h-[300px] object-cover"
             />
           </div>
@@ -90,12 +93,13 @@ export default function Entertainment() {
             </div>
           </div>
           <div className="lg:order-1">
-            <div className="flex aspect-video items-center justify-center border border-black/10 bg-black/5">
-              <div className="text-center">
-                <div className="mb-2 text-sm uppercase tracking-wider text-black/40">Image</div>
-                <div className="text-lg font-light text-black/60">DreamWorks Water Park</div>
-              </div>
-            </div>
+            <Image
+              src="/images/dreamworks-waterpark.jpg"
+              alt="DreamWorks Water Park Indoor Facility"
+              width={800}
+              height={450}
+              className="w-full h-[450px] object-cover"
+            />
           </div>
         </div>
 
@@ -107,9 +111,11 @@ export default function Entertainment() {
           <div className="mb-6 text-xl text-black/60">
             {AMERICAN_DREAM_DATA.attractions.bigSnow.title}
           </div>
-          <img
+          <Image
             src="/images/big-snow-ski.jpg"
             alt="Big SNOW Indoor Ski Park"
+            width={1400}
+            height={500}
             className="w-full h-[500px] object-cover"
           />
         </div>
