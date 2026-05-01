@@ -1,6 +1,8 @@
 ﻿'use client'
 
 import { AMERICAN_DREAM_DATA } from '@/app/lib/data/american-dream-data'
+import VideoPlayer from '../deck/VideoPlayer'
+import Image from 'next/image'
 
 export default function Destination() {
   return (
@@ -17,6 +19,32 @@ export default function Destination() {
             <span className="text-black/40">Unprecedented Access.</span>
           </h2>
           <div className="h-px w-32 bg-black/20" />
+        </div>
+
+        {/* VIDEO - Main Overview */}
+        <div className="mb-20">
+          <VideoPlayer
+            src="/videos/american-dream-overview.mp4"
+            title="American Dream Overview"
+            autoplayOnScroll
+          />
+          <p className="mt-4 text-sm text-black/60">
+            Aerial view of the 3 million square foot American Dream complex adjacent to MetLife Stadium
+          </p>
+        </div>
+
+        {/* Aerial View Image */}
+        <div className="mb-20">
+          <Image
+            src="/images/aerial-complex.jpg"
+            alt="Aerial View of American Dream Complex"
+            width={1400}
+            height={600}
+            className="w-full h-[600px] object-cover rounded-lg"
+          />
+          <p className="mt-4 text-sm text-black/60">
+            American Dream complex adjacent to MetLife Stadium - Golden hour aerial view
+          </p>
         </div>
 
         {/* Location Stats */}

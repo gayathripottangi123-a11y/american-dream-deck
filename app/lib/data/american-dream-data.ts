@@ -46,23 +46,72 @@ export const AMERICAN_DREAM_DATA = {
       name: "Nickelodeon Universe",
       title: "Largest indoor theme park in Western Hemisphere",
       rides: "35+ rides",
-      highlights: ["TMNT Shellraiser - steepest drop (121.5°)", "The Shredder - tallest free-spinning coaster"],
+      highlights: [
+        "TMNT Shellraiser - steepest drop (121.5°)",
+        "The Shredder - tallest free-spinning coaster",
+      ],
     },
     dreamworksWaterPark: {
       name: "DreamWorks Water Park",
       title: "Largest indoor water park in North America",
-      highlights: ["Largest indoor wave pool", "Longest hydro-magnetic coaster", "Tallest indoor body slide"],
+      highlights: [
+        "Largest indoor wave pool",
+        "Longest hydro-magnetic coaster",
+        "Tallest indoor body slide",
+      ],
     },
     bigSnow: {
       name: "Big SNOW",
       title: "First real-snow indoor ski park in North America",
     },
+    otherAttractions: [
+      "SEA LIFE Aquarium - 3,000+ sea creatures",
+      "LEGOLAND Discovery Center",
+      "The Rink - NHL-size ice skating rink",
+      "Dream Wheel - 300ft observation wheel",
+      "Angry Birds Mini Golf",
+      "Mirror Maze",
+      "TILT Museum - 3D art installations",
+      "New Jersey Hall of Fame",
+    ],
   },
 
   luxury: {
     name: "The Collections",
-    brands: ["Hermès", "Louis Vuitton", "Gucci", "Prada", "Versace", "Saint Laurent", "Tiffany & Co."],
+    description: "Two-level luxury retail experience inspired by Rodeo Drive",
+    brands: [
+      "Hermès",
+      "Louis Vuitton",
+      "Gucci",
+      "Prada",
+      "Versace",
+      "Saint Laurent",
+      "Tiffany & Co.",
+    ],
     advantage: "0% sales tax on clothing in New Jersey",
+  },
+
+  flagshipStores: [
+    {
+      name: "H&M",
+      note: "Largest mall-based flagship location",
+    },
+    {
+      name: "Uniqlo",
+      note: "Largest mall-based flagship location",
+    },
+    {
+      name: "Zara",
+      note: "Largest mall-based flagship location",
+    },
+  ],
+
+  retail: {
+    fashion: ["Aritzia", "Banana Republic", "Gap", "Levi's", "lululemon", "Mango"],
+    footwear: ["Aldo", "Clarks", "DSW", "Foot Locker", "Skechers", "UGG", "Vans"],
+    tech: ["Apple Store", "Best Buy", "Samsung"],
+    beauty: ["Sephora", "MAC Cosmetics", "Ulta Beauty"],
+    specialty: ["American Girl", "LEGO Store", "MLB Shop", "NBA Store"],
   },
 
   businessAdvantages: [
@@ -72,4 +121,4 @@ export const AMERICAN_DREAM_DATA = {
     "20M+ population in 30-mile radius",
     "100M+ cars pass annually",
   ],
-};
+}
